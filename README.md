@@ -1,7 +1,7 @@
 
 # Monsters Rolodex (React Fun Project)
 
-I'm Learing react and this project is build for learing perpose.
+I'm Learning react and this project is build for learning perpose.
 
 
 ## Screenshots
