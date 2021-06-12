@@ -1,0 +1,30 @@
+.card {
+	padding: 3rem ;
+	box-shadow: 0 0 50px rgba(24, 40, 72, .5);
+	border-radius: 8px;
+	transition: all 0.3s;
+	cursor: pointer;
+	text-align: center;
+	background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+   color: #fff;
+	/* max-width: 40rem; */
+}
+
+.card img {
+	width: 100%;
+	transition: all 0.3s;
+	transform-origin: bottom;
+}
+
+.card__title{
+   font-size: 2rem;
+   margin-bottom: 1.5rem;
+}
+
+.card:hover {
+	transform: scale(0.9);
+	box-shadow: 0 0 80px rgba(24, 40, 72, .8);
+}
+.card:hover img {
+	transform: scale(1.6);
+}

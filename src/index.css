@@ -1,13 +1,40 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+	outline: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+::selection{
+	background: rgb(29, 39, 66);
+	color: #fff;
+}
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  color: #1d2742;
+}
+
+.container{
+	width: 90%;
+	max-width: 114rem;
+	margin: 0 auto;
+}
+
+h1.heading{
+	font-size: clamp(4.5rem, 7vw, 10rem);
+	text-align: center;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+	font-family: 'Bigelow Rules', cursive;
 }

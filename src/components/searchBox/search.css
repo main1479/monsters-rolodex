@@ -1,0 +1,18 @@
+.search {
+	display: block;
+	width: 90%;
+	max-width: 50rem;
+	margin: 0 auto;
+	padding: 1.2rem 2rem;
+	margin-bottom: 6rem;
+	font-family: inherit;
+	font-size: 1.8rem;
+	border: 3px solid rgb(120, 118, 170);
+	border-radius: 8px;
+	transition: all 0.3s;
+}
+
+.search:focus {
+	box-shadow: 0 5px 20px rgb(77, 76, 116, .2);
+   border-color: rgb(255, 85, 85);
+}
